@@ -7,6 +7,16 @@ For more information on the REST api on which this was built, please refer to th
 
 #### If you are registering for a new account, please consider using my referral code (`t74uUoso`) or following [this link to the registration page which will automatically apply the code](https://virgocx.ca/register?code=t74uUoso).
 
+## Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
 ## Table of Contents
 
 - [Setup](#setup)
@@ -157,4 +167,4 @@ STOP_URLLIB_INSECURE_WARN.set()
 
 It is possible that trading on the exchange is paused. Unfortunately, the client does not have a way to check
 if trading is paused and thus `KeyError` exceptions may be raised when attempting to access keys from the API which
-are omitted in such cases. Eventually we hope to have an endpoint which will allow us to check if trading is paused.
+are omitted in such cases. VirgoCX should consider creating an endpoint which would allow us to check if trading is paused.
